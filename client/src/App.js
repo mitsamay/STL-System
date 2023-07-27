@@ -29,10 +29,10 @@ function App() {
               message: "Please enter valid email",
             },
           ]}
-          label="User name"
+          label="ID name"
           name={"myUsername"}
         >
-          <Input placeholder="Enter your user name" />
+          <Input placeholder="Enter your ID name" />
         </Form.Item>
         <Form.Item
           rules={[
